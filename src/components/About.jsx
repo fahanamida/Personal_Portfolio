@@ -101,12 +101,12 @@ export default function About() {
                   &#125;,
                 </div>
                 <div className="mt-4">
-                  <span className="text-amber-400">"geographic"</span>: &#123;
+                  <span className="text-amber-400">"techStack"</span>: &#123;
                   <div className="pl-4">
-                    <span className="text-accent-cyan">"coordinates"</span>: <span className="text-purple-400">"11.2588° N, 75.7804° E"</span>,
+                    <span className="text-accent-cyan">"primary"</span>: <span className="text-purple-400">["React", "Node.js", "Express", "MongoDB"]</span>,
                   </div>
                   <div className="pl-4">
-                    <span className="text-accent-cyan">"vibes"</span>: <span className="text-emerald-400">"Malabar biryani, beaches & clean code"</span>
+                    <span className="text-accent-cyan">"vibes"</span>: <span className="text-emerald-400">"Clean code, scalable APIs & modern web apps"</span>
                   </div>
                   &#125;
                 </div>

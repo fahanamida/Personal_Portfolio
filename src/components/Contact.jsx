@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import {FaGithub,FaLinkedin,FaTwitter} from "react-icons/fa";
+import {FaGithub,FaInstagram,FaLinkedin,FaTwitter} from "react-icons/fa";
 import {MdEmail,MdSend,MdCheckCircle,MdAutoAwesome,MdError,} from "react-icons/md";
 import { portfolioData } from '../config/portfolio';
 
@@ -145,6 +145,14 @@ export default function Contact() {
                     className="p-3 rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-white/10 hover:border-white/20 hover:scale-110 transition-all duration-300 shadow-md"
                   >
                     <FaLinkedin size={20} />
+                  </a>
+                  <a
+                    href={portfolioData.personal.instagram}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="p-3 rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-white/10 hover:border-white/20 hover:scale-110 transition-all duration-300 shadow-md"
+                  >
+                    <FaInstagram size={20} />
                   </a>
                 </div>
               </div>

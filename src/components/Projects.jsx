@@ -128,7 +128,7 @@ function ProjectCard({ project, isFeatured }) {
       )}
 
       {/* Interactive Links Container */}
-      <div className={`mt-6 z-10 flex items-center justify-start gap-4 ${isFeatured ? 'lg:col-span-12 border-t border-white/5 pt-4' : 'border-t border-white/5 pt-4'}`}>
+      <div className={`mt-6 z-10 flex items-center justify-end gap-4 ${isFeatured ? 'lg:col-span-12 border-t border-white/5 pt-4' : 'border-t border-white/5 pt-4'}`}>
         <a
           href={project.liveLink}
           target="_blank"
@@ -138,15 +138,7 @@ function ProjectCard({ project, isFeatured }) {
           <span>Live Demo</span>
           <FaArrowUpRightFromSquare size={20} />
         </a>
-        <a
-          href={project.githubLink}
-          target="_blank"
-          rel="noreferrer"
-          className="flex items-center gap-1 text-xs font-bold uppercase tracking-wider text-gray-400 hover:text-white transition-colors"
-        >
-          <FaGithub size={20} />
-          <span>Repository</span>
-        </a>
+        
       </div>
     </motion.div>
   );
@@ -185,9 +177,6 @@ export default function Projects() {
           >
             Featured <span className="bg-gradient-to-r from-accent-cyan via-accent-violet to-accent-blue bg-clip-text text-transparent">Projects</span>
           </motion.h2>
-          <p className="text-gray-400 max-w-xl mx-auto mt-4 text-xs md:text-sm font-normal">
-            A handpicked selection of key items. Move your mouse over the cards to experience interactive 3D depth and glow borders.
-          </p>
         </div>
 
         {/* Projects Layout */}

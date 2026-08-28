@@ -45,7 +45,6 @@ export const portfolioData = {
       impact: "Provides a seamless recipe browsing experience with fast search functionality, responsive UI, and organized recipe details, making meal planning and recipe discovery more efficient.",
       tech: ["Angular", "TypeScript", "Tailwind", "Node.js", "Express.js", "MongoDB Atlas", "JWT Authentication"],
       liveLink: "https://cookspedia-one.vercel.app/",
-      githubLink: "https://github.com/fahanamida/Cooks_Pedia",
       isFeatured: false,
       image: "https://images.unsplash.com/photo-1495521821757-a1efb6729352"
     },
@@ -56,7 +55,6 @@ export const portfolioData = {
       impact: "Provides a seamless platform for buying books, publishing books, and applying for jobs while enabling administrators to efficiently manage book approvals, job postings, and user applications through a centralized dashboard.",
       tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB Atlas", "JWT Authentication", "Google Authentication", "Stripe Payment Gateway"],
       liveLink: "https://bookstore-rho-kohl.vercel.app/",
-      githubLink: "https://github.com/fahanamida/Book_Store",
       isFeatured: true,
       image: "https://sites.rutgers.edu/itiip/wp-content/uploads/sites/1243/2025/03/istockphoto-949118068-612x612-1.jpg"
     },
@@ -67,20 +65,56 @@ export const portfolioData = {
       impact: "Reduces resume creation time by 60% and helps users generate ATS-friendly resumes with structured formatting and clean UI design.",
       tech: ["React.js", "Bootstrap CSS", "JavaScript", "HTML5", "CSS3", "jspdf"],
       liveLink: "https://resume-builder-omega-ashen.vercel.app/",
-      githubLink: "https://github.com/fahanamida/Resume_Builder",
       isFeatured: false,
       image: "https://www.shutterstock.com/image-photo/businessman-using-laptop-human-resources-600nw-2687201853.jpg",
     },
     {
       id: "project-4",
-      title: "Swiggy Clone - Food Delivery UI",
-      description: "A responsive Swiggy-inspired food delivery frontend clone built using HTML, CSS, and Bootstrap 5. Includes homepage layout, restaurant listing cards, category sections, navigation bar, and responsive mobile-friendly design replicating the Swiggy UI experience.",
-      impact: "Improves frontend UI replication skills and demonstrates strong understanding of responsive design, Bootstrap grid system, and real-world food delivery app layouts.",
-      tech: ["HTML5", "CSS3", "Bootstrap 5"],
-      liveLink: "https://swiggy-clone-gray-zeta.vercel.app/",
-      githubLink: "https://github.com/fahanamida/Swiggy_Clone",
+      title: "Expense Tracker - Personal Finance Dashboard",
+      description:
+        "A full-stack expense tracking application that helps users manage and monitor their daily expenses through a clean and responsive dashboard. Includes secure login, expense management, financial summaries, and an intuitive interface for tracking personal spending.",
+      impact:
+        "Demonstrates full-stack development skills by implementing authentication, expense management, data handling, and responsive dashboard design for a practical real-world finance application.",
+      tech: ["HTML5", "CSS3", "JavaScript", "React.js"],
+      liveLink: "https://expense-tracker-eta-pied-44.vercel.app/login",
       isFeatured: false,
-      image: "https://cdn.dribbble.com/userupload/45641256/file/956d12c4fc4d74b6661e3641b15ec3c1.jpg?resize=752x&vertical=center",
+      image:"https://img.magnific.com/free-vector/hand-drawn-employee-savings-plan-illustration_52683-143701.jpg?semt=ais_hybrid&w=740&q=80"
+      },
+    {
+      id: "project-5",
+      title: "Tic-Tac-Toe - Classic Strategy Game",
+      description:
+        "A responsive Tic-Tac-Toe game with a clean and interactive interface. Players can compete in a classic two-player game with smooth gameplay, clear game status, and an easy-to-use responsive design.",
+      impact:
+        "Demonstrates strong frontend development skills through interactive game logic, state management, responsive UI design, and user-friendly gameplay experience.",
+      tech: ["HTML5", "CSS3", "JavaScript", "React.js"],
+      liveLink: "https://game-two-delta-67.vercel.app/",
+      isFeatured: false,
+      image:"https://t4.ftcdn.net/jpg/21/13/47/07/360_F_2113470754_P4GvPsfPYz3qFVGbQA9uY3knHpRRYsPT.jpg"
+    },
+    {
+      id: "project-6",
+      title: "BMI Wellness - Health & BMI Calculator",
+      description:
+        "A responsive BMI calculator and wellness analytics application that allows users to calculate their Body Mass Index based on height and weight. Provides a clean, user-friendly interface with clear BMI results and health-related insights.",
+      impact:
+        "Demonstrates frontend development skills through interactive calculations, dynamic UI updates, responsive design, and user-focused data presentation.",
+      tech: ["HTML5", "CSS3", "JavaScript", "React.js"],
+      liveLink: "https://bmi-pi-lyart.vercel.app/",
+      isFeatured: false,
+      image: "https://media.istockphoto.com/id/1463980085/vector/indicator-bmi-body-mass-index-and-fitness-exercise.jpg?s=612x612&w=0&k=20&c=M9Ce6eoZYSUp0nAAC6ogzzAnKz3UePRhZw9g_98FKZo=",
+    },
+    {
+      id: "project-7",
+      title: "SkyCast - Premium Weather Dashboard",
+      description:
+        "A modern and responsive weather dashboard that provides real-time weather information with a clean and visually engaging interface. Users can search for locations and view important weather details through an intuitive dashboard experience.",
+      impact:
+        "Demonstrates frontend development skills through API integration, dynamic weather data handling, responsive UI design, location-based functionality, and real-time information presentation.",
+      tech: ["HTML5", "CSS3", "JavaScript", "Weather API","React.js"],
+      liveLink: "https://weather-blush-pi-96.vercel.app/",
+      isFeatured: false,
+      image: "https://media.istockphoto.com/id/1476763431/vector/rainy-season-people-under-umbrella-city-weather-concept-vector-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=g8KP8_Dv4CiI568QznkXCq00tXhHKUKYz91b7HpdT3Q=",
     },
     {
       id: "project-5",
@@ -89,9 +123,18 @@ export const portfolioData = {
       impact: "Improves data handling and state management skills by 50% and demonstrates practical CRUD operations with Redux architecture and API simulation using JSON Server.",
       tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "JSON Server", "JavaScript", "JSX"],
       liveLink: "https://job-application-ten-lime.vercel.app/",
-      githubLink: "https://github.com/fahanamida/JobApplication",
       isFeatured: false,
       image: "https://www.shutterstock.com/image-photo/job-search-icons-show-recruitment-600nw-2723971183.jpg",
+    },
+    {
+      id: "project-4",
+      title: "Swiggy Clone - Food Delivery UI",
+      description: "A responsive Swiggy-inspired food delivery frontend clone built using HTML, CSS, and Bootstrap 5. Includes homepage layout, restaurant listing cards, category sections, navigation bar, and responsive mobile-friendly design replicating the Swiggy UI experience.",
+      impact: "Improves frontend UI replication skills and demonstrates strong understanding of responsive design, Bootstrap grid system, and real-world food delivery app layouts.",
+      tech: ["HTML5", "CSS3", "Bootstrap 5"],
+      liveLink: "https://swiggy-clone-gray-zeta.vercel.app/",
+      isFeatured: false,
+      image: "https://cdn.dribbble.com/userupload/45641256/file/956d12c4fc4d74b6661e3641b15ec3c1.jpg?resize=752x&vertical=center",
     }
   ],
   experience: [
@@ -116,7 +159,7 @@ export const portfolioData = {
       degree: "BSC Computer Science",
       institution: "Amal College of Advanced Studies, Nilambur",
       period: "2026 - Present",
-      description:"Currently pursuing a Bachelor's degree in Computer Science, building a strong foundation in programming, data structures, algorithms, and database management. Passionate about web development and continuously improving through hands-on MERN stack projects."
+      description: "Currently pursuing a Bachelor's degree in Computer Science, building a strong foundation in programming, data structures, algorithms, and database management. Passionate about web development and continuously improving through hands-on MERN stack projects."
     },
     {
       id: "edu-2",

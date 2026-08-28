@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import {FaArrowRight,FaCode,FaInstagram,FaGithub,FaLinkedin,} from "react-icons/fa";
-import {MdAutoAwesome,MdTerminal,MdComputer,} from "react-icons/md";
+import { FaArrowRight, FaMapMarkerAlt, FaCode, FaInstagram, FaGithub, FaLinkedin, } from "react-icons/fa";
+import { MdAutoAwesome, MdTerminal, MdComputer, } from "react-icons/md";
 
 const WhatsAppIcon = (props) => (
   <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
@@ -48,8 +48,8 @@ export default function Hero() {
   }, [displayText, isDeleting, wordIdx]);
 
   return (
-    <section 
-      id="hero" 
+    <section
+      id="hero"
       className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-dark-bg"
     >
       {/* Background Animated Gradient Mesh / Blobs */}
@@ -57,15 +57,15 @@ export default function Hero() {
         <div className="absolute top-1/4 left-1/4 w-[350px] h-[350px] rounded-full bg-accent-violet/10 blur-[80px] animate-blob" />
         <div className="absolute top-1/3 right-1/4 w-[400px] h-[400px] rounded-full bg-accent-blue/10 blur-[90px] animate-blob [animation-delay:2s]" />
         <div className="absolute bottom-1/4 left-1/3 w-[300px] h-[300px] rounded-full bg-accent-cyan/10 blur-[70px] animate-blob [animation-delay:4s]" />
-        
+
         {/* Subtle grid pattern overlay */}
-        <div 
-          className="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] bg-[size:40px_40px]" 
+        <div
+          className="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] bg-[size:40px_40px]"
         />
       </div>
 
       <div className="max-w-6xl mx-auto px-4 z-10 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        
+
         {/* Left Headline Column */}
         <div className="lg:col-span-7 flex flex-col items-start text-left">
           <motion.div
@@ -75,7 +75,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-accent-violet/30 bg-accent-violet/5 text-xs font-semibold text-accent-violet mb-6 glow-text-violet"
           >
             <MdAutoAwesome size={12} className="animate-spin-slow" />
-            <span>Open for Remote & Local Opportunities</span>
+            <span>Open to Internship Opportunities ⭐</span>
           </motion.div>
 
           <motion.h1
@@ -108,7 +108,12 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="mt-4 text-gray-400 max-w-xl leading-relaxed text-sm md:text-base font-normal"
           >
-            {portfolioData.personal.bio} Located in <span className="text-white font-medium">{portfolioData.personal.location}</span>.
+            I’m a Fresher MERN Stack Developer currently pursuing a Bachelor’s degree in Computer Science. I have hands-on experience with the <b className='text-white'>MERN stack — MongoDB, Express.js, React.js, and Node.js</b> — and a strong interest in building modern web applications.<br /><br />
+            I enjoy developing responsive, user-friendly web applications and working on projects that help me strengthen my technical skills. I’m continuously learning new technologies and looking for opportunities to gain real-world development experience.<br /><br />
+            <span className="location" style={{display: "inline-flex",alignItems: "center",gap: "8px",}}>
+              <FaMapMarkerAlt />
+              <span><b className="text-white">Calicut</b>, Kerala, India</span>
+            </span>
           </motion.p>
 
           {/* CTA Buttons */}
@@ -125,24 +130,24 @@ export default function Hero() {
               Explore Work
               <FaArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </a>
-              <a
-                href="#contact"
-                className="flex items-center gap-2 px-6 py-3.5 rounded-full bg-white/5 hover:bg-white/10 text-white border border-white/10 hover:border-white/20 font-semibold text-sm hover:scale-105 transition-all duration-300 cursor-pointer"
-              >
-                Contact Me
-              </a>
-              {/* Resume Button with Dropdown */}
-              <div className="relative inline-block text-left group">
-                <button className="flex items-center gap-2 px-6 py-3.5 rounded-full bg-gradient-to-r from-accent-violet to-blue text-white font-semibold text-sm hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] cursor-pointer">
-                  Resumes
-                </button>
-                <div className="absolute right-0 mt-2 w-48 origin-top-right rounded-md bg-gray-800 shadow-lg ring-1 ring-black ring-opacity-5 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                    <a href="/Mern_CV.pdf" target="_blank" className="block px-4 py-2 text-sm text-white hover:bg-gray-700" role="menuitem">ATS-Friendly</a>
-                    <a href="/Mern_Resume.pdf" target="_blank" className="block px-4 py-2 text-sm text-white hover:bg-gray-700" role="menuitem">Human-Friendly</a>
-                  </div>
+            <a
+              href="#contact"
+              className="flex items-center gap-2 px-6 py-3.5 rounded-full bg-white/5 hover:bg-white/10 text-white border border-white/10 hover:border-white/20 font-semibold text-sm hover:scale-105 transition-all duration-300 cursor-pointer"
+            >
+              Contact Me
+            </a>
+            {/* Resume Button with Dropdown */}
+            <div className="relative inline-block text-left group">
+              <button className="flex items-center gap-2 px-6 py-3.5 rounded-full bg-gradient-to-r from-accent-violet to-blue text-white font-semibold text-sm hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] cursor-pointer">
+                Resumes
+              </button>
+              <div className="absolute right-0 mt-2 w-48 origin-top-right rounded-md bg-gray-800 shadow-lg ring-1 ring-black ring-opacity-5 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                  <a href="/Mern_CV.pdf" target="_blank" className="block px-4 py-2 text-sm text-white hover:bg-gray-700" role="menuitem">ATS-Friendly</a>
+                  <a href="/Mern_Resume.pdf" target="_blank" className="block px-4 py-2 text-sm text-white hover:bg-gray-700" role="menuitem">Human-Friendly</a>
                 </div>
               </div>
+            </div>
           </motion.div>
 
           {/* Social Icons Row */}
@@ -190,7 +195,7 @@ export default function Hero() {
 
         {/* Right Floating Elements Column */}
         <div className="lg:col-span-5 relative w-full h-[400px] lg:h-[500px] flex items-center justify-center">
-          
+
           {/* Circular Orbit Ring Decor */}
           <div className="absolute w-[300px] h-[300px] md:w-[380px] md:h-[380px] rounded-full border border-white/5 animate-spin-slow pointer-events-none" />
           <div className="absolute w-[200px] h-[200px] md:w-[260px] md:h-[260px] rounded-full border border-dashed border-white/10 pointer-events-none" />
@@ -215,30 +220,12 @@ export default function Hero() {
               <code>
                 <span className="text-accent-violet">const</span> developer = &#123;<br />
                 &nbsp;&nbsp;name: <span className="text-accent-cyan">'{portfolioData.personal.name}'</span>,<br />
-                &nbsp;&nbsp;skills: [<span className="text-accent-cyan">'React'</span>, <span className="text-accent-cyan">'Node'</span>, <span className="text-accent-cyan">'MongoDB'</span>],<br />
+                &nbsp;&nbsp;skills: [<span className="text-accent-cyan">'React'</span>, <span className="text-accent-cyan">'Node'</span>, <span className="text-accent-cyan">'MongoDB'</span>,<span className="text-accent-cyan">'etc...'</span>],<br />
                 &nbsp;&nbsp;origin: <span className="text-accent-cyan">'{portfolioData.personal.location}'</span>,<br />
                 &nbsp;&nbsp;status: <span className="text-accent-cyan">'Ready to build'</span><br />
                 &#125;;
               </code>
             </pre>
-          </motion.div>
-
-          {/* Floating Element 2: Small Telemetry HUD widget */}
-          <motion.div
-            initial={{ opacity: 0, x: -50, y: 50 }}
-            animate={{ opacity: 1, x: 0, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="absolute bottom-12 md:bottom-16 z-20 w-[200px] rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md px-4 py-4 shadow-2xl"
-            whileHover={{ y: -6, scale: 1.02 }}
-          >
-            <div className="flex items-center justify-between mb-2">
-              <span className="text-[10px] font-semibold uppercase tracking-wider text-gray-400">Core Telemetry</span>
-              <MdComputer size={12} className="text-accent-cyan animate-pulse" />
-            </div>
-            <div className="flex flex-col gap-1 text-left">
-              <div className="text-2xl font-display font-black text-white glow-text-cyan">99.9%</div>
-              <div className="text-[10px] text-gray-400">Application Performance Target</div>
-            </div>
           </motion.div>
 
           {/* Floating Element 3: Sparkle Badge */}

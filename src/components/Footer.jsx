@@ -18,8 +18,8 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Left Side: Brand Logo & Copyright */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left gap-2">
-          <span className="font-display font-black text-sm tracking-widest bg-gradient-to-r from-accent-violet to-accent-cyan bg-clip-text text-transparent">
-            FAHANA.DEV
+          <span className="font-display font-black text-xl tracking-widest bg-gradient-to-r from-accent-violet to-accent-cyan bg-clip-text text-transparent">
+            Fahana V
           </span>
           <span className="text-[11px] text-gray-500 font-normal">
             &copy; {new Date().getFullYear()} {portfolioData.personal.name}. All rights reserved.
