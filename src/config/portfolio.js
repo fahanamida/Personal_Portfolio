@@ -117,7 +117,7 @@ export const portfolioData = {
       image: "https://media.istockphoto.com/id/1476763431/vector/rainy-season-people-under-umbrella-city-weather-concept-vector-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=g8KP8_Dv4CiI568QznkXCq00tXhHKUKYz91b7HpdT3Q=",
     },
     {
-      id: "project-5",
+      id: "project-8",
       title: "Job Application Tracker - CRUD System",
       description: "A full-featured job application management system built using React.js with Redux for state management and JSON Server as a mock backend. Users can add, edit, delete, and track job applications including personal details like name, email, education, and application status. Includes status filtering and real-time UI updates.",
       impact: "Improves data handling and state management skills by 50% and demonstrates practical CRUD operations with Redux architecture and API simulation using JSON Server.",
@@ -127,7 +127,7 @@ export const portfolioData = {
       image: "https://www.shutterstock.com/image-photo/job-search-icons-show-recruitment-600nw-2723971183.jpg",
     },
     {
-      id: "project-4",
+      id: "project-9",
       title: "Swiggy Clone - Food Delivery UI",
       description: "A responsive Swiggy-inspired food delivery frontend clone built using HTML, CSS, and Bootstrap 5. Includes homepage layout, restaurant listing cards, category sections, navigation bar, and responsive mobile-friendly design replicating the Swiggy UI experience.",
       impact: "Improves frontend UI replication skills and demonstrates strong understanding of responsive design, Bootstrap grid system, and real-world food delivery app layouts.",
